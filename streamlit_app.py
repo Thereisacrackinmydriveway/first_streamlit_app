@@ -17,7 +17,7 @@ streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 ## Let's put a pick list here so they can pick the fruit they want to include
 
 # Set dropdown values for multiselect
-my_fruit_list = my_fruit_list.set_index('Fruit")
+my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
 
 # display the table on the page
